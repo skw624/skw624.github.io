@@ -1,0 +1,68 @@
+body {
+	position: relative;
+	background-size: cover;
+}
+.container {
+	text-align: center;
+}
+#clock {
+	margin-top: 200px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 4px 2px 2px silver;
+	font-size: 70px;
+	font-weight: bold;
+}
+#weather {
+	height: 20px;
+	color: #fff;
+	text-align: right;
+}
+.hidden {
+	display: none;
+}
+#greeting {
+	color: #fff;
+	text-shadow: 4px 2px 2px silver;
+}
+input[type="text"] {
+	width: 500px;
+	height: 40px;
+	outline: none;
+	border: 0;
+	border-radius: 15px;
+	padding: 0 20px;
+}
+#login-form {
+	margin: 20px 0;
+}
+#todo-form {
+	margin: 20px 0;
+}
+#todo-list {
+	background-color: rgba(235, 235, 235, 0.8);
+	border-radius: 10px;
+	padding: 20px;
+	width: 500px;
+	margin: auto;
+	text-decoration: none;
+	li {
+		margin-left: 30px;
+		padding: 10px 0;
+		text-align: left;
+		color: #fff;
+		word-break: break-all;
+		span {
+			padding: 0 10px;
+		}
+		button {
+			cursor: pointer;
+			border: 1px solid #fff;
+			background-color: transparent;
+			border-radius: 10px;
+		}
+	}
+	li::marker {
+		content: "❤️ ";
+	}
+}
