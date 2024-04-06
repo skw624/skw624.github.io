@@ -104,7 +104,7 @@ if(savedUsername === null) {
 todoForm.addEventListener("submit", handleTodoSubmit);
 const savedTodos = localStorage.getItem(TODO_KEY);
 if(savedTodos !== null) {
-	const parsedTodos = JSON.parse(saveTodos);
+	const parsedTodos = JSON.parse(savedTodos);
 	todos = parsedTodos;
 	parsedTodos.forEach(paintTodo);
 }
