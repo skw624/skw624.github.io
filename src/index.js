@@ -82,7 +82,7 @@ const handleTodoSubmit = (e) => {
 }
 
 //배경 랜덤이미지
-document.body.style.backgroundImage = `url('img/${chosenImage}')`;
+document.body.style.backgroundImage = `url('src/img/${chosenImage}')`;
 
 //시계
 getClock();
