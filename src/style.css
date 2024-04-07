@@ -46,23 +46,28 @@ input[type="text"] {
 	width: 500px;
 	margin: auto;
 	text-decoration: none;
-	li {
-		margin-left: 30px;
-		padding: 10px 0;
-		text-align: left;
-		color: #fff;
-		word-break: break-all;
-		span {
-			padding: 0 10px;
-		}
-		button {
-			cursor: pointer;
-			border: 1px solid #fff;
-			background-color: transparent;
-			border-radius: 10px;
-		}
-	}
-	li::marker {
-		content: "❤️ ";
-	}
+}
+#todo-list span {
+	font-weight: bold;
+	font-size: 12px;
+}
+#todo-list li {
+	margin-left: 30px;
+	padding: 10px 0;
+	text-align: left;
+	color: #fff;
+	word-break: break-all;
+}
+#todo-list li span {
+	padding: 0 10px;
+	font-size: 16px;
+}
+#todo-list li button {
+	cursor: pointer;
+	border: 1px solid #fff;
+	background-color: transparent;
+	border-radius: 10px;
+}
+#todo-list li::marker {
+	content: "❤️ ";
 }
